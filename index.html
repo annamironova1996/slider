@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Cлайдер</title>
+        <link
+            rel="stylesheet"
+            href="./style.css"
+        />
+    </head>
+    <body>
+        <div class="slider">
+            <div class="slides">
+                <div
+                    class="slide"
+                    style="background-image: url('image/1.webp')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('image/2.webp')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('image/3.webp')"
+                ></div>
+                <div
+                    class="slide"
+                    style="background-image: url('image/4.webp')"
+                ></div>
+            </div>
+            <button
+                class="btn prev"
+                onclick="prevSlide()"
+            >
+                &#10094;
+            </button>
+            <button
+                class="btn next"
+                onclick="nextSlide()"
+            >
+                &#10095;
+            </button>
+            <div class="counter">Изображение 1 из 4</div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
